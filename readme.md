@@ -4,4 +4,8 @@ TriVM is an virtual machine inspired by [Balanced ternary](https://en.wikipedia.
 
 This repo contains design documents, a simulator, a compiler, an assembler, and several CTF challenges of TriVM.
 
+[Design document](design)
+
 [Simulator, compiler and assembler](simulator)
+
+[Challenges](challenges)
