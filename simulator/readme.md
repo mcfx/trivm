@@ -12,7 +12,7 @@ This assembler does a lot of assumptions, for example, if you jump to somewhere 
 
 ## Compiler
 
-Check [compiler.py](compiler.py).
+Check [compile.py](compile.py).
 
 This compiler contains bunch of bugs, it's designed for a subset of C, with some additional features (e.g. more operators for the (and/or/xor).1 and .T instructions).
 
