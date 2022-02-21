@@ -18,6 +18,6 @@ This challenge was used in THUCTF2021.
 
 本题中，这三个矩阵可以手推出一种可能的值，同时也可以有其他复杂度为 4^n 的做法。
 
-我的做法中，这三个矩阵的元素其实可以作为变量，然后让invert_transform(transform1(a)*transform2(b))-a mul b 作为优化目标，跑一些常见的优化算法就能得到若干解。而求出一个满足要求的变换之后就可以在 4^n 的复杂度内计算了。
+我的做法中，这三个矩阵的元素其实可以作为变量，然后让 invert_transform(transform1(a)*transform2(b))-a mul b 作为优化目标，跑一些常见的优化算法就能得到若干解。而求出一个满足要求的变换之后就可以在 4^n 的复杂度内计算了。
 
 前两部分代码见 [solve.cpp](solve.cpp)，第三部分的优化可见 [br_coe3.cpp](br_coe3.cpp)，求解见 [conv_opt_mt.cpp](conv_opt_mt.cpp)。
